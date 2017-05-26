@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+    	 function getXhr(){
+    		var xhr=null;
+    		if(window.XMLHttpRequest){
+    			xhr=new XMLHttpRequest();
+    		}else{
+    			xhr=new ActiveXObject("Microsoft.XMLHTTP");
+    		}
+    		return xhr;
+    	}
+    	/* function func(){
+    		var xhr=getXhr();
+    		xhr.open('get','list?neet=flower&cake=cake&lvzhihuahui=lvzhihuahui',true);
+    		xhr.setRequestHeader('content-type','application/*-www-form-urlencoded');
+    		xhr.onreadstatechange=function(){
+    			if(xhr.status==200){
+    				location.href="index.jsp";
+    			}
+    		}
+    		xhr.send(null);
+    	} */ 
+    	function func(){
+    		/* var xhr=getXhr();
+    		xhr.open('get','list',true);
+    		xhr.onreadstatechange=function(){
+    			if(xhr.status==200){ */
+    				location.href="list";
+    		/* 	}
+    		}
+    		xhr.send(null); */
+    	} 
+    </script>
+</head>
+<body onload="func()">
+
+</body>
+</html>
