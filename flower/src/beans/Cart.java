@@ -90,7 +90,7 @@ public class Cart implements Serializable{
 	@Override
 	public String toString() {
 		return "Cart [userName=" + userName + ", flowerId=" + flowerId + ", flowerIsbn=" + flowerIsbn + ", flowerName="
-				+ flowerName + ", price=" + price + ", currentPrice=" + currentPrice + ", count=" + count + "]";
+				+ flowerName + ", price=" + price + ", currentPrice=" + currentPrice + ",我提交了 count=" + count + "]";
 	}
 	
 	
